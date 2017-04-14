@@ -18,4 +18,4 @@ n = 0 : Ts : 2 * T0;
 
 L = 4; % numero de bits para cuantizar
 
-xd = cuantizar(xn, N, -N, L);
+xd = cuantizar(xn, L);
